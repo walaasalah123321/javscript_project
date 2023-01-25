@@ -1,0 +1,92 @@
+body{
+    background-color: #222;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    background-color: #333;
+    width: 80vw;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    grid-gap: 10px;
+
+
+}
+
+img{
+    max-height: 70vh;
+    max-width: 50vw;
+
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 50px;
+}
+.img input{
+    display: none;
+}
+
+.img label{
+    color: white;
+    border: 1px dashed #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+
+
+}
+.filter ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    direction: rtl;
+}
+
+.filter ul li{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.filter ul li label{
+    color: white;
+}
+.filter ul li:last-child{
+    display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+}
+.filter ul li span ,a{
+background-color: #060;
+color: white;
+padding: 10px;
+cursor: pointer;
+}
+@media screen and (max-width:650px){
+    .container{
+    grid-template-columns: 1fr;
+    grid-gap:15px ;
+    }
+
+    
+}
+/* 
+  brightness(${brightness.value}%)
+    Sepia(${Sepia.value}%)
+    grayscale(${grayscale.value})
+    Blur(${Blur.value}px)
+    Huirotate(${Huirotate.value}deg)
+    
+    */
+
+    

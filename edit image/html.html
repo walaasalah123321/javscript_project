@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="all.css">
+        <title>image edit</title>
+        <link href="css.css" rel="stylesheet">
+
+        <meta charset="Utf-8">
+        
+
+    </head>
+    <body>
+       
+
+
+        <div class="container">
+            <div class="img">
+            <div class="img-box">
+                <img  id="image">
+            </div>
+            <div class="upload">
+                <label for="upload" >upload</label>
+                <input type="file" id="upload">
+
+            </div>
+            
+            </div>
+            <div class="filter">
+                <ul>
+                    <li>
+                        <label for="sart">Saterate</label>
+                        <input type="range" min="0" max="200" value="100" id="sart">
+                    </li>
+                    <li>
+                        <label for="contrast">Contrast</label>
+                        <input type="range" min="0" max="200" value="100" id="contrast">
+                    </li>
+                    <li>
+                        <label for="brightness">Brightness</label>
+                        <input type="range" min="0" max="200" value="100" id="brightness">
+                    </li>
+                    <li>
+                        <label for="Sepia">Sepia</label>
+                        <input type="range" min="0" max="200" value="0" id="Sepia">
+                    </li>
+                    <li>
+                        <label for="grayscale">Grayscale</label>
+                        <input type="range" min="0" max="1" value="0" step="0.1" id="grayscale">
+                    </li>
+                    <li>
+                        <label for="Blur">Blur</label>
+                        <input type="range" min="0" max="10" value="0" step="0.1" id="Blur">
+                    </li>
+                    <li>
+                        <label for="Hui-rotate">Hui-rotate</label>
+                        <input type="range" min="0" max="350" value="0"  id="Hui-rotate">
+                    </li>
+                    <li>
+                        <a download="true" id="download" >download</a>
+                        <span>reset</span>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+        <script src="js.js"></script>
+    </body>
+</html>
