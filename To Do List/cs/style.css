@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.cont{
+    width: 80%;
+    margin: auto;
+
+}
+.header-cont{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.header-cont ul{    display: flex;
+    list-style: none;
+
+}
+.header-cont li a{
+
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 0px 5px;
+
+
+}
+.brand{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+
+}
+.section-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #bc6ff1;
+    padding: 20px;
+    width: 40%;
+    text-align: center;
+}
+.section-content h2{
+    letter-spacing: 2px;
+    font-size: 40px;
+    color: #52057b;
+}
+.section-content input{
+    width: 100%;
+    
+    display: block;
+    height: 40px;
+    margin-bottom: 4px;
+    border: 1px solid #ddd;
+    outline: 0;
+}
+.section-content input[type=button]{
+    font-size: 45px;
+    text-transform: uppercase;
+    height: auto;
+    cursor: pointer; /* يحول السهم ل ايد */
+
+}
+.section-content input[type=button]:hover{
+opacity: 0.9;
+}
+.product-img-details{
+    height: 400px;
+    width: 100%;
+    border: 1px solid black;
+    margin: 2px ;
+}
+.input_text{
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #b5b5b5;
+    border-radius: 10px;
+}
+

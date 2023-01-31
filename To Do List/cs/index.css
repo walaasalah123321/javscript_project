@@ -1,0 +1,72 @@
+.producting  {
+    width: 60%;
+    margin: 20px;
+}
+.product-img{
+    width: 25%;
+    margin-right: 10px;
+}
+.product-item{
+    display: flex;
+    border: 1px solid rebeccapurple;
+    margin-bottom: 10px;
+    min-height: 80px;
+
+}
+.right{
+    flex: 1;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right button{
+    display: block;
+    margin-left: auto;
+    background-color: green;
+    padding: 10px 20px;
+    color: white;
+    border: 0;
+    cursor: pointer;
+
+}
+.right .fa-heart{
+    cursor: pointer;
+    margin-left: auto;
+
+}
+.icon_user{
+    position: relative;
+    margin: 10px;
+    top: -5px;
+}
+.icon_user span{
+    font-size: 10px;
+    background-color: brown;
+    height: 20px;
+    position: absolute;
+    text-align: center;
+    top: -16px;
+    right: -10px;
+        width: 20px;
+    display: block;
+    border-radius: 50%;
+    line-height: 20px;
+}.product-items{
+
+    position: absolute;
+    width: 200px;
+    background-color: gray;
+    top: 53px;
+    padding: 10px;
+    
+    border: 1px solid green;
+    left: -50px;
+    display: none;
+}
+.product-items p{
+    padding-bottom: 10px;
+}.product-item h3{
+    cursor: pointer;
+}
