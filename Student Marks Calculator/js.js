@@ -5,10 +5,16 @@ let par=document.querySelector(".par")
 result.onclick=function(){
     let sum=0;
     let avarge=0
+    let r=0;
 
     text.forEach(item=>{
-        sum+=(+item.value);
+        if(item.value.length==0){
+            alert("pleace enter "+item.placeholder)
+        }
+        else{
+        sum+=(+item.value); r++;}
     })
+    if(r==5){
     avarge=sum/500*100;
     if(avarge>=90){
         flag="A you are pass "
@@ -33,6 +39,6 @@ result.onclick=function(){
     
     `
 par.innerHTML=ph
-
+    }
 
 }
